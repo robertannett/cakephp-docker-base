@@ -12,7 +12,7 @@
 docker ps
 ```
 
-### List all containers
+### Execute a command in a container
 ```
 docker exec <container-id> composer update 
 ```
