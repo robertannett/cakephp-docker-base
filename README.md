@@ -7,6 +7,12 @@
 
 ## Example usage
 
+### Database Details
+'host' => env('MYSQL_URL', null),
+'database' => 'cakephp',
+'username' => env('MYSQL_USERNAME', 'root'),
+'password' => env('MYSQL_PASSWORD', '')
+
 ### List all containers
 ```
 docker ps
